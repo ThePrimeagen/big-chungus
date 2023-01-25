@@ -1,0 +1,36 @@
+Arguments: 
+  /home/mpaulson/.local/n/bin/node /home/mpaulson/.local/.npm-global/bin/yarn init
+
+PATH: 
+  /home/mpaulson/.deno/bin:/home/mpaulson/personal/sumneko/bin:/home/mpaulson/go/bin:/home/mpaulson/.local/go/bin:/home/mpaulson/.local/n/bin/:/home/mpaulson/.local/scripts:/home/mpaulson/.local/.npm-global/bin:/home/mpaulson/.zig:/opt/nf-tvui-spriter-deps/bin:/usr/lib/ccache:/home/theprimeagen/n/bin:/home/mpaulson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/theprimeagen/personal/lua-language-server/bin/Linux:/usr/local/go/bin:/home/mpaulson/work/wrapper:/usr/local/netflix/tvui-automation-analyzer:/usr/local/netflix/encoders/bin/:/home/mpaulson/.yarn/bin:/usr/lib/llvm-8/bin:/home/mpaulson/personal/uhh/build:/home/mpaulson/.cargo/bin:/home/mpaulson/.rustup
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.18.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/home/mpaulson/.local/.npm-global/lib/node_modules/yarn/lib/cli.js:137150:13)
+      at Interface.emit (node:events:513:28)
+      at Interface._ttyWrite (node:readline:1085:16)
+      at ReadStream.onkeypress (node:readline:291:10)
+      at ReadStream.emit (node:events:513:28)
+      at emitKeys (node:internal/readline/utils:357:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
+      at ReadStream.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:315:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
